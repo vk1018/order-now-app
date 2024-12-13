@@ -1,0 +1,23 @@
+.download-con {
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+}
+.img-con {
+  display: flex;
+  justify-content: center;
+  gap: max(2vw, 20px);
+  margin-top: 40px;
+}
+.img-con img {
+  width: max(10vw, 120px);
+  cursor: pointer;
+}
+.img-con img:hover {
+  transform: scale(1.05);
+}
+.download-con p {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
